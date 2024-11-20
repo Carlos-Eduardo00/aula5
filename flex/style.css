@@ -1,0 +1,35 @@
+html, body {
+    background-color: #995BED; 
+    height: 100%;           
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;                  
+    justify-content: center;
+    align-items: center;
+}
+
+.profile {
+    background-color: white;
+    width: 400px;
+    border-radius: 5px;
+    box-shadow: 10px 13px 70px -36px rgba(0, 0, 0, 0.6); 
+    padding: 10px;                                                          /* (10px 5px 5px 3px) Primeiro: Espaço no topo | Segundo: Espaço à Direita | Terceiro: Espaço à Esquerda | Quarto: Espaço em Baixo. Porém, se você colocar apenas uma quantidade de pixels (igual está no código, esse valor vai ser aplicado em todos os lados.)*/
+}
+
+.profile-image-adapter {
+    text-align: center;
+}
+
+.links-list {
+    list-style: none;
+    padding: 0px;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
